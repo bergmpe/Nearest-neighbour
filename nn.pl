@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-my $file = 'iris.dat';
+my $file = 'iris.data';
 my %classes;
 
 open my $info, $file or die  "Could not open the file $file";
